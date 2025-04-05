@@ -15,7 +15,7 @@ public class Starter {
         if (selectedDay != null) {
             System.out.println(selectedDay + " günü çalışma saatleri: " + selectedDay.getWorkingHours());
         } else {
-            System.out.println("Geçersiz gün girdiniz. Lütfen geçerli bir gün adı girin.");
+            System.out.println("Geçersiz gün girdiniz. Lütfen geçerli bir gün adı girin. ");
         }
 
         scanner.close();
