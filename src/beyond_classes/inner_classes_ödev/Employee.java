@@ -30,7 +30,7 @@ public class Employee {
         this.contactInfo = new ContactInfo(phoneNumber, email);
     }
 
-    public void displayEmployeeInfo() {
+    public void displayEmployee() {
         System.out.println("Çalışan Bilgileri:");
         System.out.println("Ad: " + firstName);
         System.out.println("Soyad: " + lastName);
@@ -39,6 +39,6 @@ public class Employee {
 
     public static void main(String[] args) {
         Employee employee = new Employee("Kutay", "Özer", "0551 111 111", "kutayozer04@gmail.com");
-        employee.displayEmployeeInfo();
+        employee.displayEmployee();
     }
 }
