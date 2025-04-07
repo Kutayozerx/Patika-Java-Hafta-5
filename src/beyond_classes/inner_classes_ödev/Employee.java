@@ -30,7 +30,6 @@ public class Employee {
         this.contactInfo = new ContactInfo(phoneNumber, email);
     }
 
-    // Çalışan bilgilerini ve iletişim bilgilerini gösteren metot
     public void displayEmployeeInfo() {
         System.out.println("Çalışan Bilgileri:");
         System.out.println("Ad: " + firstName);
@@ -38,9 +37,8 @@ public class Employee {
         contactInfo.displayContactInfo();
     }
 
-    // Main metodu - örnek kullanım
     public static void main(String[] args) {
-        Employee employee = new Employee("Ahmet", "Yılmaz", "0555 123 4567", "ahmet.yilmaz@example.com");
+        Employee employee = new Employee("Kutay", "Özer", "0551 111 111", "kutayozer04@gmail.com");
         employee.displayEmployeeInfo();
     }
 }
