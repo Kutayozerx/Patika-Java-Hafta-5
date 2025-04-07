@@ -1,4 +1,4 @@
-package beyond_classes_enums.record;
+package beyond_classes.record;
 
 import java.util.List;
 

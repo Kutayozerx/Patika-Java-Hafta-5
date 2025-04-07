@@ -1,4 +1,4 @@
-package beyond_classes_enums.enums;
+package beyond_classes.enums;
 
 public enum Direction {
 

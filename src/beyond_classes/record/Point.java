@@ -1,4 +1,4 @@
-package beyond_classes_enums.record;
+package beyond_classes.record;
 
 public record Point(int x , int y) {
 

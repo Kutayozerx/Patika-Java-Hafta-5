@@ -1,4 +1,4 @@
-package beyond_classes_enums.EnumÖdev;
+package beyond_classes.EnumÖdev;
 
 public enum Day {
 

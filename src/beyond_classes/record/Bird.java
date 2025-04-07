@@ -1,4 +1,4 @@
-package beyond_classes_enums.record;
+package beyond_classes.record;
 
 public record Bird(int numberEggs, String name) {
 
