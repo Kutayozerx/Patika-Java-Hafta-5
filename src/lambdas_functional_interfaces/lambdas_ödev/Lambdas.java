@@ -9,10 +9,9 @@ public class Lambdas {
 
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
+        numbers.replaceAll(x -> x * 2);
 
-        numbers.stream()
-                .map(n -> n * 2)
-                .forEach(System.out::println);
+        numbers.forEach(x -> System.out.println(x));
 
 
     }
